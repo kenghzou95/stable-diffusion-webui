@@ -1,6 +1,8 @@
-# Stable Diffusion web UI
-A browser interface based on Gradio library for Stable Diffusion.
+# Stable Diffusion web UI  on AWS
+This is a fork of https://github.com/AUTOMATIC1111/stable-diffusion-webui/ based on the main version on 21 Dec 2022.
 
+This repo contains a setup script that can be run on an EC2 instance as a one-click deployment.
+! Still under development
 ![](screenshot.png)
 
 ## Features
@@ -133,7 +135,7 @@ The documentation was moved from this README over to the project's [wiki](https:
 
 ## Credits
 Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.
-
+- Stable Diffusion Web UI on EC2 - https://github.com/marshmellow77/stable-diffusion-webui
 - Stable Diffusion - https://github.com/CompVis/stable-diffusion, https://github.com/CompVis/taming-transformers
 - k-diffusion - https://github.com/crowsonkb/k-diffusion.git
 - GFPGAN - https://github.com/TencentARC/GFPGAN.git
