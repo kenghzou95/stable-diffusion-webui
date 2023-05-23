@@ -5,8 +5,21 @@ This repo contains a setup script that can be run on an EC2 instance as a one-cl
 ! Still under development
 ![](screenshot.png)
 
-# upload to cloudFormation with the following template
+# Step 1 - CloudFormation
+upload setup.sh to cloudFormation Stacks then keep everything in default.
+Note: AMI will change according to country so do change for your country. Different AMI/ country will have different rate. Refer: https://aws.amazon.com/ec2/pricing/on-demand/
 
+# Step 2 - Go to EC2 to Connect your instance and check
+you can check the service whether running or not by this two method
+nestat -atn  > find if any listening to 7860 port
+check if there is a file name log.txt, if exist means is trying to run the service.
+cat log.txt >  to see what are the stages of the services.
+
+# Step 3 - Find your public IP from ur EC2 instance
+then browse http://x:7860 where is ur public ip for example if your public ip is 0.0.0.0 then http://0.0.0.0:7860
+
+# Step 4 - Install required plugin for further use.
+WIP 
 
 ## Credits
 Licenses for borrowed code can be found in `Settings -> Licenses` screen, and also in `html/licenses.html` file.
