@@ -14,9 +14,12 @@ sudo apt-get install git-lfs
 sudo -u ubuntu git lfs install --skip-smudge
 
 #download basic model
-wget -o stable-diffusion-webui/models/Stable-diffusion/ChilloutMix.safetensors https://civitai.com/api/download/models/11745
-wget -O stable-diffusion-webui/models/Stable-diffusion/Cetus-Mix.safetensors https://civitai.com/api/download/models/8298
-wget -O stable-diffusion-webui/models/Stable-diffusion/nsfw.safetensors https://civitai.com/api/download/models/12763
+#wget -O stable-diffusion-webui/models/Stable-diffusion/ChilloutMix.safetensors https://civitai.com/api/download/models/11745
+#wget -O stable-diffusion-webui/models/Stable-diffusion/Cetus-Mix.safetensors https://civitai.com/api/download/models/8298
+#wget -O stable-diffusion-webui/models/Stable-diffusion/nsfw.safetensors https://civitai.com/api/download/models/12763
+wget -O stable-diffusion-webui/models/Stable-diffusion/brav5.safetensors https://civitai.com/api/download/models/63786
+wget -O stable-diffusion-webui/models/Stable-diffusion/perfectworld.safetensors https://civitai.com/api/download/models/77276 
+
 
 #download controlnet models
 wget -O control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
@@ -26,6 +29,8 @@ wget -O control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/Control
 sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
 
 # start the server as user 'ubuntu'
-sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen > log.txt
+sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen  > log.txt
 
 
+#https://www.prompthunt.com/explore
+#negative prompt veryBadImageNegative,[( NG_DeepNegative_V1_64T :0.9) :0.1]
