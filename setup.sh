@@ -29,7 +29,7 @@ wget -O control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/Control
 sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
 
 # start the server as user 'ubuntu'
-sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen  > log.txt
+sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen --enable-insecure-extension-access  > log.txt
 
 
 #https://www.prompthunt.com/explore
