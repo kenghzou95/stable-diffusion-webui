@@ -15,17 +15,23 @@ sudo -u ubuntu git lfs install --skip-smudge
 
 #download basic model
 wget -O stable-diffusion-webui/models/Stable-diffusion/ChilloutMix.safetensors https://civitai.com/api/download/models/11745
+#wget -O stable-diffusion-webui/models/Stable-diffusion/AnythingV5_v5PrtRE.safetensors  https://civitai.com/api/download/models/30163
 #wget -O stable-diffusion-webui/models/Stable-diffusion/Cetus-Mix.safetensors https://civitai.com/api/download/models/8298
 #wget -O stable-diffusion-webui/models/Stable-diffusion/nsfw.safetensors https://civitai.com/api/download/models/12763
 #wget -O stable-diffusion-webui/models/Stable-diffusion/brav5.safetensors https://civitai.com/api/download/models/63786
 #wget -O stable-diffusion-webui/models/Stable-diffusion/perfectworld.safetensors https://civitai.com/api/download/models/77276 
 #wget -O stable-diffusion-webui/models/Stable-diffusion/anime2d.safetensors  https://civitai.com/api/download/models/77384
-wget -O stable-diffusion-webui/models/Stable-diffusion/AnythingV5_v5PrtRE.safetensors  https://civitai.com/api/download/models/30163
+
+git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser/ stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
+git clone https://github.com/Mikubill/sd-webui-controlnet stable-diffusion-webui/extensions/sd-webui-controlnet
+git clone https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper stable-diffusion-webui/extensions/Stable-Diffusion-Webui-Civitai-Helper
+git clone https://github.com/jexom/sd-webui-depth-lib stable-diffusion-webui/extensions/sd-webui-depth-lib
 
 #download controlnet models
-wget -O control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
-wget -O control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
-wget -O control_v11p_sd15_canny.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
+wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
+#wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
+#wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_canny.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
+
 
 
 wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetensors https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
