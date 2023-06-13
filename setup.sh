@@ -22,13 +22,13 @@ wget -O stable-diffusion-webui/models/Stable-diffusion/brav5.safetensors https:/
 #wget -O stable-diffusion-webui/models/Stable-diffusion/perfectworld.safetensors https://civitai.com/api/download/models/77276 
 #wget -O stable-diffusion-webui/models/Stable-diffusion/anime2d.safetensors  https://civitai.com/api/download/models/77384
 
-git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
-git clone https://github.com/Mikubill/sd-webui-controlnet.git stable-diffusion-webui/extensions/sd-webui-controlnet
-git clone https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper.git stable-diffusion-webui/extensions/Stable-Diffusion-Webui-Civitai-Helper
-git clone https://github.com/jexom/sd-webui-depth-lib.git stable-diffusion-webui/extensions/sd-webui-depth-lib
-git clone https://github.com/d8ahazard/sd_dreambooth_extension.git stable-diffusion-webui/extensions/sd_dreambooth_extension
+#git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
+#git clone https://github.com/Mikubill/sd-webui-controlnet.git stable-diffusion-webui/extensions/sd-webui-controlnet
+#git clone https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper.git stable-diffusion-webui/extensions/Stable-Diffusion-Webui-Civitai-Helper
+#git clone https://github.com/jexom/sd-webui-depth-lib.git stable-diffusion-webui/extensions/sd-webui-depth-lib
+#git clone https://github.com/d8ahazard/sd_dreambooth_extension.git stable-diffusion-webui/extensions/sd_dreambooth_extension
 #download controlnet models
-wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
+#wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_canny.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
 
