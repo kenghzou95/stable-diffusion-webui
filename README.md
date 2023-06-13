@@ -6,7 +6,7 @@ This repo contains a setup script that can be run on an EC2 instance as a one-cl
 ![](screenshot.png)
 
 # Step 1 - CloudFormation
-upload setup.sh to cloudFormation Stacks then keep everything in default.
+upload 100644 sd-web-ui-cf-template.yaml to cloudFormation Stacks then keep everything in default.
 Note: AMI will change according to country so do change for your country. Different AMI/ country will have different rate. Refer: https://aws.amazon.com/ec2/pricing/on-demand/
 
 # Step 2 - Go to EC2 to Connect your instance and check
