@@ -33,7 +33,17 @@ wget -O stable-diffusion-webui/models/Stable-diffusion/ChilloutMix.safetensors h
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_canny.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
 
 
-
+wget -O stable-diffusion-webui/models/epiNoiseoffset_v2.safetensors https://civitai.com/api/download/models/16576
+wget -O stable-diffusion-webui/models/POVDoggy.safetensors https://civitai.com/api/download/models/10290
+wget -O stable-diffusion-webui/models/ahegao_v1.safetensors https://civitai.com/api/download/models/10029
+wget -O stable-diffusion-webui/models/Photo_Comparison-v2.safetensors https://civitai.com/api/download/models/58585
+wget -O stable-diffusion-webui/models/photorealistic.safetensors https://civitai.com/api/download/models/10976
+wget -O stable-diffusion-webui/models/AfterSexMS.safetensors https://civitai.com/api/download/models/21538
+wget -O stable-diffusion-webui/models/dildoRiding2-000005.safetensors https://civitai.com/api/download/models/27100
+wget -O stable-diffusion-webui/models/grabbingOwnAss_v1Pruned.safentensors https://civitai.com/api/download/models/13373
+wget -O stable-diffusion-webui/models/breasts_on_glass.safentensors https://civitai.com/api/download/models/8614
+wget -O stable-diffusion-webui/models/POVDoggy.safentensors https://civitai.com/api/download/models/10290
+wget -O stable-diffusion-webui/models/shirtliftALORAFor_shirtliftv1.safetensors https://civitai.com/api/download/models/7870
 wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetensors https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
 
 # change ownership of the web UI so that a regular user can start the server
