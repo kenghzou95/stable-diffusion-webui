@@ -48,7 +48,7 @@ wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetenso
 
 # change ownership of the web UI so that a regular user can start the server
 sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
-sudo systemctl start vsftpd
+#sudo systemctl start vsftpd
 #sudo passwd <username>
 # start the server as user 'ubuntu'
 sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen --enable-insecure-extension-access  > log.txt
