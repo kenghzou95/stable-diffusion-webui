@@ -2,7 +2,7 @@
 # disable the restart dialogue and install several packages
 sudo sed -i "/#\$nrconf{restart} = 'i';/s/.*/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf
 sudo apt-get update
-sudo apt install wget git python3 python3-venv build-essential net-tools awscli -y
+sudo apt install wget git python3 python3-venv build-essential net-tools awscli vsftpd -y
 
 # install CUDA (from https://developer.nvidia.com/cuda-downloads)
 wget https://developer.download.nvidia.com/compute/cuda/12.0.0/local_installers/cuda_12.0.0_525.60.13_linux.run
@@ -48,7 +48,8 @@ wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetenso
 
 # change ownership of the web UI so that a regular user can start the server
 sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
-
+sudo systemctl start vsftpd
+#sudo passwd <username>
 # start the server as user 'ubuntu'
 sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen --enable-insecure-extension-access  > log.txt
 
