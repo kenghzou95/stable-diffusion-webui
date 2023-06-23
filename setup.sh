@@ -28,10 +28,11 @@ git clone https://github.com/Mikubill/sd-webui-controlnet.git stable-diffusion-w
 #git clone https://github.com/jexom/sd-webui-depth-lib.git stable-diffusion-webui/extensions/sd-webui-depth-lib
 #git clone https://github.com/d8ahazard/sd_dreambooth_extension.git stable-diffusion-webui/extensions/sd_dreambooth_extension
 #download controlnet models
-wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
+#wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_canny.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
-wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v1p_sd15_brightness.safetensors https://huggingface.co/ioclab/ioc-controlnet/resolve/main/models/control_v1p_sd15_brightness.safetensors
+#wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v1p_sd15_brightness.safetensors https://huggingface.co/ioclab/ioc-controlnet/resolve/main/models/control_v1p_sd15_brightness.safetensors
+wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1p_sd15_depth.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
 
 wget -O stable-diffusion-webui/models/Lora/epiNoiseoffset_v2.safetensors https://civitai.com/api/download/models/16576
 #wget -O stable-diffusion-webui/models/POVDoggy.safetensors https://civitai.com/api/download/models/10290
