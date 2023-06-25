@@ -37,14 +37,20 @@ wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11
 wget -O stable-diffusion-webui/models/Lora/epiNoiseoffset_v2.safetensors https://civitai.com/api/download/models/16576
 #wget -O stable-diffusion-webui/models/POVDoggy.safetensors https://civitai.com/api/download/models/10290
 #wget -O stable-diffusion-webui/models/ahegao_v1.safetensors https://civitai.com/api/download/models/10029
-wget -O stable-diffusion-webui/models/Lora/Photo_Comparison-v2.safetensors https://civitai.com/api/download/models/58585
+#wget -O stable-diffusion-webui/models/Lora/Photo_Comparison-v2.safetensors https://civitai.com/api/download/models/58585
 #wget -O stable-diffusion-webui/models/photorealistic.safetensors https://civitai.com/api/download/models/10976
 #wget -O stable-diffusion-webui/models/AfterSexMS.safetensors https://civitai.com/api/download/models/21538
 #wget -O stable-diffusion-webui/models/dildoRiding2-000005.safetensors https://civitai.com/api/download/models/27100
+wget -O stable-diffusion-webui/models/Lora/FishnetBunnyV1.safetensors https://civitai.com/api/download/models/82596
+wget -O stable-diffusion-webui/models/Lora/bunnysuit.safetensors https://civitai.com/api/download/models/8369
+wget -O stable-diffusion-webui/models/Lora/rabbit.safetensors https://civitai.com/api/download/models/10240
+
+wget -O stable-diffusion-webui/models/Lora/YaeMiko_Test.safetensors https://civitai.com/api/download/models/11523
 wget -O stable-diffusion-webui/models/Lora/grabbingOwnAss_v1Pruned.safentensors https://civitai.com/api/download/models/13373
 wget -O stable-diffusion-webui/models/Lora/breasts_on_glass.safentensors https://civitai.com/api/download/models/8614
-#wget -O stable-diffusion-webui/models/POVDoggy.safentensors https://civitai.com/api/download/models/10290
+wget -O stable-diffusion-webui/models/Lora/POVDoggy.safentensors https://civitai.com/api/download/models/10290
 wget -O stable-diffusion-webui/models/Lora/shirtliftALORAFor_shirtliftv1.safetensors https://civitai.com/api/download/models/7870
+
 wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetensors https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
 
 # change ownership of the web UI so that a regular user can start the server
