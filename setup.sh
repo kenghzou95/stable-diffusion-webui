@@ -24,17 +24,19 @@ wget -O stable-diffusion-webui/models/Stable-diffusion/brav5.safetensors https:/
 
 #git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
 git clone https://github.com/Mikubill/sd-webui-controlnet.git stable-diffusion-webui/extensions/sd-webui-controlnet
+git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git
 #git clone https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper.git stable-diffusion-webui/extensions/Stable-Diffusion-Webui-Civitai-Helper
 #git clone https://github.com/jexom/sd-webui-depth-lib.git stable-diffusion-webui/extensions/sd-webui-depth-lib
 #git clone https://github.com/d8ahazard/sd_dreambooth_extension.git stable-diffusion-webui/extensions/sd_dreambooth_extension
 #download controlnet models
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1e_sd15_tile.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth
-#wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
+wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_openpose.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11p_sd15_canny.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
 #wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v1p_sd15_brightness.safetensors https://huggingface.co/ioclab/ioc-controlnet/resolve/main/models/control_v1p_sd15_brightness.safetensors
 wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1p_sd15_depth.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
 
 wget -O stable-diffusion-webui/models/Lora/epiNoiseoffset_v2.safetensors https://civitai.com/api/download/models/16576
+wget -O stable-diffusion-webui/models/Lora/idolSingingCostume_v11.safetensors https://civitai.com/api/download/models/74030
 #wget -O stable-diffusion-webui/models/POVDoggy.safetensors https://civitai.com/api/download/models/10290
 #wget -O stable-diffusion-webui/models/ahegao_v1.safetensors https://civitai.com/api/download/models/10029
 #wget -O stable-diffusion-webui/models/Lora/Photo_Comparison-v2.safetensors https://civitai.com/api/download/models/58585
@@ -44,19 +46,20 @@ wget -O stable-diffusion-webui/models/Lora/epiNoiseoffset_v2.safetensors https:/
 wget -O stable-diffusion-webui/models/Lora/FishnetBunnyV1.safetensors https://civitai.com/api/download/models/82596
 wget -O stable-diffusion-webui/models/Lora/bunnysuit.safetensors https://civitai.com/api/download/models/8369
 wget -O stable-diffusion-webui/models/Lora/rabbit.safetensors https://civitai.com/api/download/models/10240
-
-wget -O stable-diffusion-webui/models/Lora/YaeMiko_Test.safetensors https://civitai.com/api/download/models/11523
+wget -O stable-diffusion-webui/models/Lora/breastinclassBetter_v141.safetensors https://civitai.com/api/download/models/23250
+#wget -O stable-diffusion-webui/models/Lora/YaeMiko_Test.safetensors https://civitai.com/api/download/models/11523
 wget -O stable-diffusion-webui/models/Lora/grabbingOwnAss_v1Pruned.safentensors https://civitai.com/api/download/models/13373
 wget -O stable-diffusion-webui/models/Lora/breasts_on_glass.safentensors https://civitai.com/api/download/models/8614
-wget -O stable-diffusion-webui/models/Lora/POVDoggy.safentensors https://civitai.com/api/download/models/10290
-wget -O stable-diffusion-webui/models/Lora/shirtliftALORAFor_shirtliftv1.safetensors https://civitai.com/api/download/models/7870
+wget -O stable-diffusion-webui/models/Lora/POVDoggy.safetensors https://civitai.com/api/download/models/10290
+wget -O stable-diffusion-webui/models/Lora/shirtliftv1.safetensors https://civitai.com/api/download/models/7870
 
 wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetensors https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
 
 # change ownership of the web UI so that a regular user can start the server
 sudo chown -R ubuntu:ubuntu stable-diffusion-webui/
 #sudo systemctl start vsftpd
-#sudo passwd <username>
+#sudo passwd ubuntu
+#open security group to port 21
 # start the server as user 'ubuntu'
 sudo -u ubuntu nohup bash stable-diffusion-webui/webui.sh --listen --enable-insecure-extension-access  > log.txt
 
