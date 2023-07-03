@@ -24,7 +24,7 @@ wget -O stable-diffusion-webui/models/Stable-diffusion/brav5.safetensors https:/
 
 #git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
 git clone https://github.com/Mikubill/sd-webui-controlnet.git stable-diffusion-webui/extensions/sd-webui-controlnet
-git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git
+git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git stable-diffusion-webui/extensions/a1111-sd-webui-lycoris
 #git clone https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper.git stable-diffusion-webui/extensions/Stable-Diffusion-Webui-Civitai-Helper
 #git clone https://github.com/jexom/sd-webui-depth-lib.git stable-diffusion-webui/extensions/sd-webui-depth-lib
 #git clone https://github.com/d8ahazard/sd_dreambooth_extension.git stable-diffusion-webui/extensions/sd_dreambooth_extension
