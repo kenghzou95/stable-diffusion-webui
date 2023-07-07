@@ -21,7 +21,7 @@ sudo -u ubuntu git lfs install --skip-smudge
 wget -O stable-diffusion-webui/models/Stable-diffusion/brav5.safetensors https://civitai.com/api/download/models/63786
 #wget -O stable-diffusion-webui/models/Stable-diffusion/perfectworld.safetensors https://civitai.com/api/download/models/77276 
 #wget -O stable-diffusion-webui/models/Stable-diffusion/anime2d.safetensors  https://civitai.com/api/download/models/77384
-
+wget -O stable-diffusion-webui/models/Stable-diffusion/hassaku.safetensors https://civitai.com/api/download/models/62528
 #git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
 git clone https://github.com/Mikubill/sd-webui-controlnet.git stable-diffusion-webui/extensions/sd-webui-controlnet
 git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git stable-diffusion-webui/extensions/a1111-sd-webui-lycoris
@@ -43,15 +43,18 @@ wget -O stable-diffusion-webui/models/Lora/idolSingingCostume_v11.safetensors ht
 #wget -O stable-diffusion-webui/models/photorealistic.safetensors https://civitai.com/api/download/models/10976
 #wget -O stable-diffusion-webui/models/AfterSexMS.safetensors https://civitai.com/api/download/models/21538
 #wget -O stable-diffusion-webui/models/dildoRiding2-000005.safetensors https://civitai.com/api/download/models/27100
-wget -O stable-diffusion-webui/models/Lora/FishnetBunnyV1.safetensors https://civitai.com/api/download/models/82596
-wget -O stable-diffusion-webui/models/Lora/bunnysuit.safetensors https://civitai.com/api/download/models/8369
-wget -O stable-diffusion-webui/models/Lora/rabbit.safetensors https://civitai.com/api/download/models/10240
+#wget -O stable-diffusion-webui/models/Lora/FishnetBunnyV1.safetensors https://civitai.com/api/download/models/82596
+#wget -O stable-diffusion-webui/models/Lora/bunnysuit.safetensors https://civitai.com/api/download/models/8369
+#wget -O stable-diffusion-webui/models/Lora/rabbit.safetensors https://civitai.com/api/download/models/10240
 wget -O stable-diffusion-webui/models/Lora/breastinclassBetter_v141.safetensors https://civitai.com/api/download/models/23250
+wget -O stable-diffusion-webui/models/Lora/alice.safetensors https://civitai.com/api/download/models/18060
 #wget -O stable-diffusion-webui/models/Lora/YaeMiko_Test.safetensors https://civitai.com/api/download/models/11523
 wget -O stable-diffusion-webui/models/Lora/grabbingOwnAss_v1Pruned.safentensors https://civitai.com/api/download/models/13373
 wget -O stable-diffusion-webui/models/Lora/breasts_on_glass.safentensors https://civitai.com/api/download/models/8614
 wget -O stable-diffusion-webui/models/Lora/POVDoggy.safetensors https://civitai.com/api/download/models/10290
 wget -O stable-diffusion-webui/models/Lora/shirtliftv1.safetensors https://civitai.com/api/download/models/7870
+
+#wget -O stable-diffusion-webui/models/lycoris/standsx.safetensors https://civitai.com/api/download/models/78364
 
 wget -O stable-diffusion-webui/models/VAE/vae-ft-mse-840000-ema-pruned.safetensors https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
 
