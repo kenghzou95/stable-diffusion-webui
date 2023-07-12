@@ -36,7 +36,7 @@ wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11
 wget -O stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_v11f1p_sd15_depth.pth https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
 
 wget -O stable-diffusion-webui/models/Lora/epiNoiseoffset_v2.safetensors https://civitai.com/api/download/models/16576
-wget -O stable-diffusion-webui/models/Lora/idolSingingCostume_v11.safetensors https://civitai.com/api/download/models/74030
+#wget -O stable-diffusion-webui/models/Lora/idolSingingCostume_v11.safetensors https://civitai.com/api/download/models/74030
 #wget -O stable-diffusion-webui/models/POVDoggy.safetensors https://civitai.com/api/download/models/10290
 #wget -O stable-diffusion-webui/models/ahegao_v1.safetensors https://civitai.com/api/download/models/10029
 #wget -O stable-diffusion-webui/models/Lora/Photo_Comparison-v2.safetensors https://civitai.com/api/download/models/58585
@@ -53,6 +53,7 @@ wget -O stable-diffusion-webui/models/Lora/grabbingOwnAss_v1Pruned.safentensors 
 wget -O stable-diffusion-webui/models/Lora/breasts_on_glass.safentensors https://civitai.com/api/download/models/8614
 wget -O stable-diffusion-webui/models/Lora/POVDoggy.safetensors https://civitai.com/api/download/models/10290
 wget -O stable-diffusion-webui/models/Lora/shirtliftv1.safetensors https://civitai.com/api/download/models/7870
+wget -O stable-diffusion-webui/models/Lora/singer.safetensors  https://civitai.com/api/download/models/109930
 
 #wget -O stable-diffusion-webui/models/lycoris/standsx.safetensors https://civitai.com/api/download/models/78364
 
