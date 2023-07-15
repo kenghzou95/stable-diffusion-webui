@@ -14,7 +14,7 @@ sudo apt-get install git-lfs
 sudo -u ubuntu git lfs install --skip-smudge
 
 #download basic model
-#wget -O stable-diffusion-webui/models/Stable-diffusion/ChilloutMix.safetensors https://civitai.com/api/download/models/11745
+wget -O stable-diffusion-webui/models/Stable-diffusion/ChilloutMix.safetensors https://civitai.com/api/download/models/11745
 #wget -O stable-diffusion-webui/models/Stable-diffusion/AnythingV5_v5PrtRE.safetensors  https://civitai.com/api/download/models/30163
 #wget -O stable-diffusion-webui/models/Stable-diffusion/Cetus-Mix.safetensors https://civitai.com/api/download/models/8298
 #wget -O stable-diffusion-webui/models/Stable-diffusion/nsfw.safetensors https://civitai.com/api/download/models/12763
